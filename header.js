@@ -1,1 +1,0 @@
-document.write('<div class="header"><h1 class="headline">KIKS</h1></div>');

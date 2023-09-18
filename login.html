@@ -1,25 +1,14 @@
-<!DOCTYPE html>
-<html lang="ja">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-  <meta name="robots" content="noindex,noarchive,nofollow,noimageindex">
-  <script type="text/javascript" src="sha256.js"></script>
-  <title>ログイン</title>
-</head>
-
-<body>
-  <!--header-->
-  <script src="header.js"></script>
-
+---
+layout: default
+title: Login (Member Only)
+---
+<!--contents-->
   <form id="form">
     <p>この先のページは、メンバーにのみ閲覧が許可されています。</p>
     <p id="message">パスワードを入力してください。</p>
     <input type="password" placeholder="password" id="password">
   </form>
-
+  <script type="text/javascript" src="/assets/js/sha256.js"></script>
   <script>
     function hash(text) {
       const sha = new jsSHA('SHA-256', 'TEXT');
@@ -53,9 +42,3 @@
       event.preventDefault();
     });
   </script>
-
-  <!--footer-->
-  <script src="footer.js"></script>
-</body>
-
-</html>
