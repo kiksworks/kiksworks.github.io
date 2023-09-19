@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: manual_series
 title: Education-Board
+tags: Education-Board
 ---
 
 ## はじめに  

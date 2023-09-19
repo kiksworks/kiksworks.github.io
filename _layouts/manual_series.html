@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<p>カテゴリ：</p>
+{% capture tags %}
+{% for tag in page.tags %}
+{{ tag }}
+{% endfor %}
+{% endcapture %}
+{% assign eachtag = tags | split:' ' %}
+
+{% for tag in eachtag %}
+<a href="./index.html">{{ tag }}</a>
+{% endfor %}
+{{content}}
+{%assign previous_num = page.page_num|minus: 1%}
+{%assign next_num = page.page_num|plus: 1%}
+<a class="previous" href="./{{previous_num|to_string}}.html">← {{previous_num}}</a>
+<a class="next" href="./{{next_num|to_string}}.html">{{next_num}} →</a>
