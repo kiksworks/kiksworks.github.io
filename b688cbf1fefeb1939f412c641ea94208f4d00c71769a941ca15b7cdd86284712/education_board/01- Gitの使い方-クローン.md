@@ -1,8 +1,6 @@
 ---
-layout: manual_series
-title: 2. Gitの使い方－クローン
-tags: Education-Board
-page_num: 2
+layout: default
+title: Gitの使い方－クローン
 ---
 この章ではGitHub上にある教育用基板のデータを取得することを通して**クローン**について学びます。
 
