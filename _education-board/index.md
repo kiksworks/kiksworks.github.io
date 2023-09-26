@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: education-board
 title: Education-Board
+category: Education-Board
 ---
 
 ## はじめに  
