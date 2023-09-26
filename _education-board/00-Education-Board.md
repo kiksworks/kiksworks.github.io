@@ -1,6 +1,6 @@
 ---
-layout: education-board
-title: Education-Board
+layout: manual
+title: 00-Education-Board
 category: Education-Board
 ---
 
