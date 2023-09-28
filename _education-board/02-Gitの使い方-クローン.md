@@ -15,11 +15,11 @@ Git上のデータは**リポジトリ**と呼ばれる場所に保存されて�
 
 GitHub Desktopを起動して左上のCurrent repository > Add > Clone repositoryを選択してください。  
 ![１](image/git_clone1.png)  
-そして、検索窓にeduと入力し、kiksworks/education-boardを選択してください。Local pathに先程作成したGit用フォルダを選択し、Cloneボタンを押してください。
+そして、検索窓にeduと入力し、kiksworks/education-boardを選択してください。Local pathに先程作成したGit用フォルダを選択し、Cloneボタンを押してください。  
 ![2](image/git_clone2.png)  
 するとGit用フォルダの中にeducation-boardというフォルダが作成されます。
 
-education-boardフォルダのEducation_nucleo_pcb > Education_nucleo_pcb > Education_nucleo_pcb.proを開いてみてください。Kicadが起動すれば成功です。
+education-boardフォルダのEducation_nucleo_pcb > Education_nucleo_pcb > Education_nucleo_pcb.proを開いてみてください。Kicadが起動すれば成功です。  
 ![Kicad](image/Kicad.png)
 
 ## 参考リンク
