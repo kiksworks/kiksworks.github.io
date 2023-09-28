@@ -1,6 +1,6 @@
 ---
 layout: manual
-title: 00-Education-Board
+title: 00-Education-Boardとは
 category: Education-Board
 ---
 

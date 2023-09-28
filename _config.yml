@@ -4,3 +4,5 @@ url: "https://kiksworks.github.io"
 collections:
   education-board:
    output: true
+  management:
+    output: true
