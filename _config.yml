@@ -1,6 +1,7 @@
 baseurl: ""
 url: "https://kiksworks.github.io"
 
+collections_dir: b688cbf1fefeb1939f412c641ea94208f4d00c71769a941ca15b7cdd86284712
 collections:
   education-board:
    output: true
