@@ -11,7 +11,7 @@ CSSやJavaScriptなどの知識を最小限でウェブページを書くこと�
 
 ## カテゴリを作る
 
-`kiksworks.github.io/_カテゴリ名`というフォルダを作成してください。アンダーバーをお忘れなく。そして、_config.ymlのcollections:を以下を参考にして編集してください。education-boardとmanagementが登録されていると、以下のようになります。
+`kiksworks.github.io/_カテゴリ名`というフォルダを作成してください。アンダーバーをお忘れなく。そして、`_config.yml`のcollections:を以下を参考にして編集してください。education-boardとmanagementが登録されていると、以下のようになります。
 
 ```title:_config.yml
 collections:
@@ -24,7 +24,7 @@ collections:
 ## 目次の作成&登録
 作成したカテゴリのフォルダに`index.html`を作成してください。
 そして、中身を他のカテゴリのindex.htmlを参考に書き換えてください。5行目くらいにある以下の文を変更してください。  
-{％ assign sorted_tags = site.カテゴリ名 | sort %}  
+`{％ assign sorted_tags = site.カテゴリ名 | sort %} `  
 (サイト作成の都合上、左の％が全角になっています。半角の%に直してください。)
 
 ## ページを作る
